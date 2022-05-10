@@ -1,0 +1,7 @@
+.txt-light{
+    color: var(--my-light);
+}
+
+.my-bg-dark{
+    background-color: var(--my-dark);
+}

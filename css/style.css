@@ -1,18 +1,44 @@
 @import url(variable.css);
 @import url(buttons.css);
+@import url(ulitily.css);
 
 .section:not(no-padding){
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
-
 
 .img-wall{
+    background-position: center;
     background-size: cover;
-    background-image: url(../img/jumbo-bg.png);
 }
 
-.img-list img{
+.img-wall.banner{
+    background-image: var(--itk2-bg);
+}
+
+.img-wall.bg-wall-1{
+    background-image: var(--returnal-bg);
+}
+
+.img-cont img{
     border-radius: 20px;
     width: 100%;
+}
+
+.title span{
+    padding-bottom: 1rem;
+    display:block;
+}
+
+.title .main-title{
+    font-size:calc(1.475rem + 2.7vw);
+}
+
+.title .secondary-title{
+    font-size: calc(1.275rem + .3vw);
+
+}
+
+.title p{
+    font-size: 1.25rem;
 }
