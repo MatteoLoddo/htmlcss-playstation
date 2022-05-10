@@ -1,0 +1,18 @@
+@import url(variable.css);
+@import url(buttons.css);
+
+.section:not(no-padding){
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.img-wall{
+    background-size: cover;
+    background-image: url(../img/jumbo-bg.png);
+}
+
+.img-list img{
+    border-radius: 20px;
+    width: 100%;
+}
