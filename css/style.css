@@ -1,8 +1,11 @@
 @import url(variable.css);
 @import url(buttons.css);
 @import url(ulitily.css);
+@import url(mediaquery.css);
 
-.section:not(no-padding){
+
+
+.section:not(.no-padding){
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -25,20 +28,13 @@
     width: 100%;
 }
 
-.title span{
-    padding-bottom: 1rem;
-    display:block;
+.img-banner img{
+    width: 100%;
+    object-fit: cover;
 }
-
-.title .main-title{
-    font-size:calc(1.475rem + 2.7vw);
-}
-
-.title .secondary-title{
-    font-size: calc(1.275rem + .3vw);
-
-}
-
-.title p{
-    font-size: 1.25rem;
+/* .img-cont.half-width img{
+    width: 50%;
+} */
+.img-cont.border-radius-reset img{
+    border-radius: 0;
 }

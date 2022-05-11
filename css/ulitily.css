@@ -5,3 +5,11 @@
 .my-bg-dark{
     background-color: var(--my-dark);
 }
+
+.my-sec-bg-dark{
+    background-color: var(--my-sec-dark);
+}
+
+.txt-blue{
+    color: #0675CF;
+}
