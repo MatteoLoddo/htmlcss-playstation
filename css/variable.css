@@ -1,7 +1,17 @@
 :root{
+    /* background-img */
     --returnal-bg: url(../img/jumbo-bg.png);
     --itk2-bg: url(../img/it-takes-two-hero-banner-desktop.jpg);
+
+    /* light-dark color */
+
     --my-light:#ffff;
+    --my-sec-light: #BEBCBB;
     --my-dark:#1f1f1f;
-    --my-sec-dark: #BEBCBB;
+    --my-sec-dark:#161C3B;
+
+    /* my color */
+
+    --my-primary-color:#2D64E6;
+    --my-secondary-color:#CD3D0F;
 }

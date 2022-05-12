@@ -6,10 +6,18 @@
     background-color: var(--my-dark);
 }
 
+.my-bg-light{
+    background-color: var(--my-light);
+}
+
+.my-sec-bg-light{
+    background-color: var(--my-sec-light);
+}
+
 .my-sec-bg-dark{
     background-color: var(--my-sec-dark);
 }
 
 .txt-blue{
-    color: #0675CF;
+    color: #157ED2;
 }

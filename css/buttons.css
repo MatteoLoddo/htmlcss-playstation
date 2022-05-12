@@ -1,10 +1,48 @@
 
 .my-btn a{
+    box-shadow: 0 0 0 3px var(--my-primary-color);
+    display: inline-block;
     color: var(--my-light);
     text-decoration: none;
     padding: 0.5rem 1rem;
-    border: 1px solid transparent;
+    border: 3px solid transparent;
     border-radius: 25px;
-    background-color: blue;
-
+    background-color: var(--my-primary-color);
 }
+
+.my-btn a:hover{
+    border: 3px solid white;
+}
+
+
+.my-btn.my-btn-secondary a{
+    box-shadow: 0 0 0 3px var(--my-secondary-color);
+    background-color: var(--my-secondary-color);
+}
+
+.my-btn.my-btn-secondary a:hover{
+    border: 3px solid black;
+}
+
+
+.my-btn.my-btn-third a{
+    color: var(--my-primary-color);
+    background-color: #D9DADC;
+}
+
+.my-btn.my-btn-fourth a{
+    background-color: var(--my-light);
+    border: 3px solid var(--my-light);
+    box-shadow: 0 0 0 3px var(--my-light);
+    color: black;
+    
+}
+
+.my-btn.my-btn-fourth a:hover{
+    border: 3px solid var(--my-sec-dark);
+}
+
+.my-btn.access-btn a{
+    padding: 0 0.5rem;;
+}
+
