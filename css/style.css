@@ -11,7 +11,7 @@
 }
 
 .img-wall{
-    background-position: center;
+    background-position: center  top;
     background-size: cover;
 }
 
@@ -31,6 +31,15 @@
 .img-banner img{
     width: 100%;
     object-fit: cover;
+
+}
+
+.img-cont.plus-hover{
+    transition: 0.3s;
+}
+
+.img-cont.plus-hover:hover{
+    transform: scale(105%);
 }
 
 .img-cont.border-radius-reset img{
@@ -101,4 +110,18 @@
 .footer-link ul li a{
     color: var(--my-light);
     text-decoration: none;
+}
+
+.img-footer img{
+    width: 30%;
+}
+
+
+.svg-cont-blackbanner svg{
+    padding: 0.5rem;
+    width: 60px;
+}
+
+.sticky-top{
+    top: -26px;
 }
